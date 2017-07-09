@@ -13,3 +13,4 @@ for i in range(len(lines)):
 text = "\n".join(lines)
 
 pyperclip.copy(text)
+print('Bulleted text has been copied to the clipboard')
